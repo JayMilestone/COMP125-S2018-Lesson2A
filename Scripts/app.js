@@ -4,9 +4,11 @@
 // anonymous self executing function
 (function(){
 
+    "use strict"
+    
     function Start() {
         // local variable
-        var title = document.title;
+        let title = document.title;
 
 
         console.log("App Started!");
