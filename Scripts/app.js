@@ -18,6 +18,7 @@
                 Bio();
                 break;
             case "Project's Page":
+                ProjectsPage();
                 break;
             case "Contact":
                 break;
@@ -48,6 +49,32 @@
         // Adding to the document
         let bio = document.getElementById("bio").innerHTML = bioFirstPart + "<br>" + bioSecondPart + "<br>" + bioThirdPart + "<br>" + bioFourthPart + "<br>" + bioFifthPart + bookLink + bioSixthPart + matchLink + bioSeventhPart + switchLink
         + bioEightPart + trumpVsKanyeLink + bioNinthPart;
+    }
+    //Project's Page function
+    function ProjectsPage()
+    {
+        //Strings for book
+        var bookDescriptionOne = "<br>Hi, My name is Jaden Mullings - Wiafe. I made a book containing my life and all the things that have happened.";
+        var bookDescriptionTwo = "Reading this alone, it probably just seems like it will be some simple relationships, and family deaths, right?";
+        var bookDescriptionThree = "Well, my book has, for one, my alcoholic mom, two her abusive boyfriend, and yeah, a lot of cheating females. <br>Oh yeah, the ongoing death of friends and family (animals too).";
+        var bookDescriptionFour = "If you ever feel like reading something, I say you give it a try, you might find it interesting.";
+        // Adding to the document
+        let bookDescription = document.getElementById("bookDescription").innerHTML = bookDescriptionOne + "<br>" + bookDescriptionTwo + "<br>" + bookDescriptionThree + "<br>" + bookDescriptionFour;
+        
+        //Strings for Match app
+        var matchDescriptionOne = "<br>Match was the fastest game I have made and I think my best.";
+        var matchDescriptionTwo = "It is simple, fun, but the graphics are boring, so that is my new goal for it.";
+        var matchDescriptionThree = "Personally, I think this game has the capacity to become one of the top, but you will need to see it to believe me.";
+        // Adding to the document
+        let matchDescription = document.getElementById("matchDescription").innerHTML = matchDescriptionOne + "<br>" + matchDescriptionTwo + "<br>" + matchDescriptionThree;
+        
+        //Strings for SWITCH! app
+        var switchDescriptionOne = "<br>SWITCH! was the game I took the most time in.";
+        var switchDescriptionTwo = "I basically just considered it a practice app in all, but it was fun to make and I learned a lot.";
+        var switchDescriptionThree = "It is simple, hard, and challenging, but with no effects, it looked dull.";
+        var switchDescriptionFour = "I can say for sure that this can became very good with a little bit more effort.";
+        //Adding to the document
+        let switchDescription = document.getElementById("switchDescription").innerHTML = switchDescriptionOne + "<br>" + switchDescriptionTwo + "<br>" + switchDescriptionThree + "<br>" + switchDescriptionFour;
     }
 
     //On Page / window loaded
