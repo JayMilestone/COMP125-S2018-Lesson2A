@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project's Page</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./Scripts/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Scripts/lib/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./Content/app.css">
+</head>
+<body>
+     <!-- Main Nav -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <!-- Logo Image -->
+        <img src="./Assets/imgs/Website Logo.png" height="40" width="40">
+      <a class="navbar-brand" href="./index.html">Assignment 1</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <!-- Nav Links -->
+            <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contact.html"><i class="fas fa-info"></i> Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Projects Page.html"><i class="fas fa-project-diagram"></i> Project's Page  <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+            <h1 class="display-4">Project's Page</h1>
+            <p class="lead">This is a page about, what i consider, my top 3 projects</p>
+            <hr class="my-4">
+            <h5>My biggest Project would be my Book</h5>
+            <h2 class="my-4">Life and Everything in Between</h2>
+              <!-- Project Images and Videos -->
+            <img src="./Assets/imgs/Jay_Milestone_v2_3d.jpg" alt="Life and Everything in Between" height="420" width="420">
+            <p id="bookDescription"></p>
+            <h5>My second favourite project is Match</h5>
+            <h2 class="my-4">Match</h2>
+            <video width="320" height="240" controls>
+                <source src="./Assets/video/bandicam 2018-05-31 21-29-51-128.mp4" type="video/mp4">
+              </video>
+              <p id="matchDescription"></p>
+            <h5>My last favourite is, ironically, the one I took the longest in, Switch!</h5>
+            <h2 class="my-4">Switch!</h2>
+            <video width="320" height="240" controls>
+                <source src="./Assets/video/bandicam 2018-05-31 22-15-58-784.mp4" type="video/mp4">
+              </video>
+              <p id="switchDescription"></p>
+          </div>
+    
+    <!-- JavaScript Section -->
+    <script src="./Scripts/lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="./Scripts/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
